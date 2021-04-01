@@ -1,0 +1,23 @@
+{{page-title "CodeSnippet"}}
+
+{{! MD-BLOCK }}
+# &lt;CodeSnippet&gt;
+
+This is a composition of [ember-prism](https://github.com/shipshapecode/ember-prism) and [ember-code-snippet](https://github.com/ef4/ember-code-snippet)
+as described [here](https://github.com/ef4/ember-code-snippet#syntax-highlighting)
+
+## Example
+{{! MD-BLOCK }}
+
+<br />
+<div class="hidden">
+{{! BEGIN-SNIPPET code-snippet-example }}
+{{! BEGIN-SNIPPET my-code-snippet }}
+<p><CodeSnippet @name="my-code-snippet.hbs" /></p>
+{{! END-SNIPPET }}
+{{! END-SNIPPET }}
+</div>
+
+{{! MD-BLOCK }}
+<p><CodeSnippet @name="code-snippet-example.hbs" /></p>
+{{! MD-BLOCK }}

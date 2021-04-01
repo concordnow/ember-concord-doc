@@ -1,0 +1,17 @@
+{{page-title "Writing documentation"}}
+
+{{! MD-BLOCK }}
+
+# Writing documentation
+
+## Create a `docs` page
+
+* `ember g route docs/my-new-page --dummy`
+* <p><LinkTo @route="docs.customize-route">Customize your route</LinkTo></p>
+* Your route should be automatically linked in the sidebar
+* Fill your new page content (`tests/dummy/app/templates/docs/my-new-page.hbs`) <br />
+  Here is a markup [showcase](https://tailwindcss-typography.netlify.app/) of what is available
+
+> Note: Api references (eg. Components, Services...) can also be documented with `docs` route system. <br />
+> Take a look at the source code of [this documentation](https://github.com/concordnow/ember-concord-doc) for a more complex example.
+{{! MD-BLOCK }}

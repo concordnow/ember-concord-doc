@@ -1,5 +1,11 @@
+{{! BEGIN-SNIPPET dummy-application }}
+{{! tests/dummy/app/templates/application.hbs }}
 {{page-title "Dummy"}}
 
-<h2 id="title">Welcome to Ember</h2>
+<Navbar
+  @addonName="Dummy Addon"
+  @repo="https://github.com/concordnow/ember-concord-doc"
+/>
 
 {{outlet}}
+{{! END-SNIPPET }}

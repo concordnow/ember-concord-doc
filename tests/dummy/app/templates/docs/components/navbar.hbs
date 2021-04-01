@@ -1,0 +1,31 @@
+{{page-title "Navbar"}}
+
+{{! MD-BLOCK }}
+# &lt;Navbar&gt;
+
+Sticky top navigation bar.
+
+## Example
+
+{{! MD-BLOCK }}
+
+<br />
+{{! BEGIN-SNIPPET navbar-example }}
+<Navbar
+  @addonName="My custom Addon"
+  @repo="https://github.com/concordnow/ember-custom-addon"
+/>
+{{! END-SNIPPET }}
+<br />
+
+{{! MD-BLOCK }}
+<p><CodeSnippet @name="navbar-example.hbs" /></p>
+
+## API
+
+| Argument     | Description                         | Type   | Default Value |
+|--------------|-------------------------------------|--------|---------------|
+| `@addonName` | Addon name without the Ember prefix | String |               |
+| `@repo`      | Repository URL of the addon         | String |               |
+
+{{! MD-BLOCK }}

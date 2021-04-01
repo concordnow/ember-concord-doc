@@ -1,0 +1,29 @@
+{{page-title "HeroHeader"}}
+
+{{! MD-BLOCK }}
+# &lt;HeroHeader&gt;
+
+Simple [Hero](https://www.w3schools.com/howto/howto_css_hero_image.asp) for your app.
+
+## Example
+
+{{! MD-BLOCK }}
+
+<br />
+{{! BEGIN-SNIPPET hero-header-example }}
+<HeroHeader
+  @addonName="My custom Addon"
+/>
+{{! END-SNIPPET }}
+<br />
+
+{{! MD-BLOCK }}
+<p><CodeSnippet @name="hero-header-example.hbs" /></p>
+
+## API
+
+| Argument     | Description                         | Type   | Default Value |
+|--------------|-------------------------------------|--------|---------------|
+| `@addonName` | Addon name without the Ember prefix | String |               |
+
+{{! MD-BLOCK }}
