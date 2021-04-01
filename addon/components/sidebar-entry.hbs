@@ -1,0 +1,18 @@
+<li class="truncate" ...attributes>
+  <LinkTo
+    @route={{@page.routeName}}
+    class="{{unless @page.disabled 'hover:text-red-700 dark-hover:text-red-500' ''}} {{if @page.isActive 'font-semibold text-red-600 dark:text-red-500' ''}}"
+    @disabled={{@page.disabled}}
+  >
+    {{if @page.title @page.title @page.routeName}}
+  </LinkTo>
+
+  {{#if @page.children.length}}
+    <ul class="pl-6 border-l border-gray-400 dark:border-gray-700 space-y-3">
+      <li></li> {{! Empty entry for spacing }}
+      {{#each @page.children as |subPage|}}
+        <SidebarEntry @page={{subPage}} />
+      {{/each}}
+    </ul>
+  {{/if}}
+</li>
