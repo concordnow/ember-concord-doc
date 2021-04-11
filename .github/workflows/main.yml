@@ -89,7 +89,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          ROOT_URL: 'ember-concord-doc'
+          ROOT_URL: ${{ github.event.repository.name }}
       - name: 'Deploy documentation'
         uses: peaceiris/actions-gh-pages@v3
         with:
