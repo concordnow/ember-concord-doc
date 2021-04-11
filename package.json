@@ -1,8 +1,12 @@
 {
   "name": "ember-concord-doc",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Concord documentation system for ember-cli app/addons.",
-  "keywords": ["ember-addon", "documentation", "markdown"],
+  "keywords": [
+    "ember-addon",
+    "documentation",
+    "markdown"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/concordnow/ember-concord-doc.git"
