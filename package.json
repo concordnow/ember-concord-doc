@@ -35,7 +35,7 @@
     "ember-cli-babel": "^7.23.0",
     "ember-cli-htmlbars": "^5.3.1",
     "ember-code-snippet": "^3.0.0",
-    "ember-md-block": "^0.1.1",
+    "ember-md-block": "^0.1.2",
     "ember-prism": "^0.9.1",
     "markdown-wasm": "^1.1.2"
   },
