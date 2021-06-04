@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Fixed
+
+- Force location type hash
+
 ## [0.1.0] - 2021-04-11
 
 ### Added
@@ -14,9 +18,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Initial release
 
 ## [0.0.0] - 2021-04-02
-
-[unreleased]: https://github.com/concordnow/ember-concord-doc/compare/null...HEAD
-
 
 [Unreleased]: https://github.com/concordnow/ember-concord-doc/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/concordnow/ember-concord-doc/compare/null...v0.1.0
