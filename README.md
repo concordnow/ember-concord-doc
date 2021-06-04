@@ -1,7 +1,7 @@
 ember-concord-doc
 ==============================================================================
 
-[Short description of the addon.]
+Very opiniated Ember Addon documentation system tailored for Concord usage.
 
 
 Compatibility
@@ -23,7 +23,7 @@ ember install ember-concord-doc
 Usage
 ------------------------------------------------------------------------------
 
-[Longer description of how to use the addon in apps.]
+[See website](https://concordnow.github.io/ember-concord-doc/)
 
 
 Contributing
