@@ -18,6 +18,14 @@ module.exports = {
         .map((css) => `<link href="https://unpkg.com/${css}" rel="stylesheet">`)
         .join('');
     }
+
+    if (
+      type === 'body-footer' &&
+      config.modulePrefix === 'dummy' &&
+      config.environment != 'test'
+    ) {
+      return `<script>Prism.plugins.customClass.prefix('prism--')</script>`;
+    }
   },
 
   included(includer) {
@@ -38,10 +46,6 @@ module.exports = {
       includer.options['ember-prism'] = {};
     }
 
-    if (!includer.options['ember-prism'].theme) {
-      includer.options['ember-prism'].theme = 'tomorrow';
-    }
-
     if (!includer.options['ember-prism'].components) {
       includer.options['ember-prism'].components = [
         'markup',
@@ -50,6 +54,10 @@ module.exports = {
         'javascript',
         'css',
       ];
+    }
+
+    if (!includer.options['ember-prism'].plugins) {
+      includer.options['ember-prism'].plugins = ['custom-class'];
     }
 
     if (!includer.options['ember-md-block']) {

@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+
+- Use custom prefixed prism theme
+
 ## [0.1.2] - 2021-06-04
 
 ### Fixed
