@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Breaking change: Require node >= 12
+- Breaking change: Require ember-auto-import >= 2
+- Bump to ember-prism@^0.11
+
 ## [0.2.0] - 2021-06-07
 
 ### Added
