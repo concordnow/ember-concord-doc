@@ -1,7 +1,7 @@
 ember-concord-doc
 ==============================================================================
 
-Very opiniated Ember Addon documentation system tailored for Concord usage.
+Very opinionated Ember Addon documentation system tailored for Concord usage.
 
 
 Compatibility
